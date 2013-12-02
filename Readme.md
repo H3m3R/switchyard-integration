@@ -5,6 +5,8 @@ SwitchYard Integration
 
 2. ActiveMQ (JSON) to HornetQ (XML)
 
+![diagram](diagram.png "diagram")
+
 JBoss EAP 6.1 setup
 -------------------
 1. Start standalone JBoss EAP 6.1 with specific configuration:
