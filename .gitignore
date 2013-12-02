@@ -1,0 +1,16 @@
+/target
+/src/test/resources/developer.properties
+
+# IntelliJ IDEA
+*.ipr
+*.iml
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.xml/
+
+# Mac
+.DS_Store
