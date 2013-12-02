@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<routes xmlns="http://camel.apache.org/schema/spring">
+	<route>
+		<from uri="switchyard://RouterService"/>
+		<log message="RouterService - message received: ${body}"/>
+		<to uri="switchyard://AMQOutboundReference"/>
+		<to uri="switchyard://FileReference"/>
+	</route>
+</routes>
